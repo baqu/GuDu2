@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:clipToPadding="true"
+    >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+        android:id="@+id/frag"></FrameLayout>
+
+<LinearLayout
+    android:id="@+id/nn"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#f2f1f1"
+    android:layout_alignParentBottom="true"
+
+
+    >
+    <TextView
+        android:id="@+id/ye"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableTop="@mipmap/ic_home_black_18dp"
+        android:text="Ye"
+        android:gravity="center"
+
+        />
+    <TextView
+        android:id="@+id/fx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableTop="@mipmap/ic_search_black_18dp"
+        android:text="Fx"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/lk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableTop="@mipmap/ic_explore_black_18dp"
+        android:text="Lk"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/wo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableTop="@mipmap/ic_face_black_18dp"
+        android:text="Wo"
+        android:gravity="center"
+        />
+
+</LinearLayout>
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#cecbcb"
+        android:layout_above="@id/nn"/>
+
+
+</RelativeLayout>
